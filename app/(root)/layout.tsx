@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: {
+} : {
   children: React.ReactNode;
 }) {
   return (
@@ -33,7 +33,6 @@ export default function RootLayout({
             </section>
             <RightSidebar />
           </main>
-
           <Bottombar />
         </body>
       </html>
